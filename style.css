@@ -1,0 +1,30 @@
+body {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > input {
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  text-indent: 5px;
+}
+
+.container > button {
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  border: 1px solid rgb(129, 109, 109);
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
